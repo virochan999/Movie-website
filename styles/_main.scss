@@ -1,0 +1,10 @@
+// .first {
+//     color: red;
+// }
+
+.first {
+    color: $white;
+    .child {
+        color: red;
+    }
+}

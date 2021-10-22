@@ -1,0 +1,4 @@
+.first {
+  color: #fff; }
+  .first .child {
+    color: red; }

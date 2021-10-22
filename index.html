@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7d892f9769.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="navbar">
+            <div class="menu-bar-box">
+                <div class="menu-bar"><i class="fas fa-2x fa-bars"></i></div>
+                <div class="logo"><a class="no-decoration" href="#">Stream Now</a></div>
+                <div class="icon"><i class="fas fa-2x global-white-color fa-play-circle"></i></div>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li class="category-name-div" data-dropdown>
+                        <a href="#" class="category-name" data-dropdown-button>GENRE</a>
+                        <div class="categories">
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Action"/>
+                                <label for="action">Action</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Horror"/>
+                                <label for="Horror">Horror</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Sci-fi"/>
+                                <label for="Sci-fi">Sci-fi</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Kids"/>
+                                <label for="Kids">Kids</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Fantasy"/>
+                                <label for="action">Fantasy</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Comedy"/>
+                                <label for="action">Comedy</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Adventure"/>
+                                <label for="action">Adventure</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="History"/>
+                                <label for="action">History</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Drama"/>
+                                <label for="action">Drama</label>
+                            </a>
+                            <a class="genre-items" href="#">
+                                <input type="checkbox" name="category" value="Mystery"/>
+                                <label for="action">Mystery</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category-name-div" data-dropdown>
+                        <a href="#" class="category-name" data-dropdown-button>YEAR RELEASED</a>
+                        <div class="categories">
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2011"/>
+                                <label for="2011">2011</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2012"/>
+                                <label for="2012">2012</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2013"/>
+                                <label for="2013">2013</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2014"/>
+                                <label for="2014">2014</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2015"/>
+                                <label for="2015">2015</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2016"/>
+                                <label for="2016">2016</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2017"/>
+                                <label for="2017">2017</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2018"/>
+                                <label for="2018">2018</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2019"/>
+                                <label for="2019">2019</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2020"/>
+                                <label for="2020">2020</label>
+                            </a>
+                            <a class="year-wise" href="#">
+                                <input type="checkbox" name="year" value="2021"/>
+                                <label for="2021">2021</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category-name-div" data-dropdown>
+                        <a href="#" class="category-name" data-dropdown-button>TOP IMDB</a>
+                        <div class="categories">
+                            <a href="#"><button class="high-to-low">High to Low</button></a>
+                            <a href="#"><button class="low-to-high">Low To High</button></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-options">
+                <input id="search-bar" class="search-box" type="text" placeholder="search...." name="search">
+                <button type="submit"> <i id="myModel" class="fas fa-2x fa-search-plus"></i></button>
+            </div>
+        </div>
+
+    </header>
+    <section class="whole-section">
+        <div class="sidebar">
+            <div class="menu-box">
+                    <a href="index.html" class="menu-items"><i class="fas fa-home"></i>Home</a>
+                    <a href="#" class="menu-items"><i class="fas fa-address-card"></i>About</a>
+                    <a href="#" class="menu-items"><i class="fas fa-file-video"></i>Movies and TV shows</a>
+                    <a href="#" class="menu-items"><i class="fas fa-info"></i>Help</a>
+                    <a href="#" class="menu-items"><i class="fas fa-cogs"></i>Settings</a>
+                    <div class="menu-box-item2">
+                        <a href="#" class="menu-items"><i class="fab fa-wpexplorer"></i>Explore</a>
+                        <a href="#" class="menu-items"><i class="fas fa-play"></i>Subscription</a>
+                        <a href="#" class="menu-items"><i class="fas fa-bell-slash"></i>Notification</a>
+                        <a href="#" class="menu-items"><i class="fas fa-moon"></i>Dark Mode</a>
+                        <a href="#" class="menu-items"><i class="fas fa-user-circle"></i>Account</a>
+                    </div>
+            </div>
+        </div>
+        <section class="main-section"> 
+            <header class="main-header">
+                <div class="carousel">
+                    <button class="carousel-btn carousel-btn-left is-hidden">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-track-container">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide slide-1 current-slide">
+                                <div class="first-slide-text">
+                                    <div class="first-slide-leftpart">
+                                        <h1>All your Streaming Services in One Place</h1>
+                                        <p class="global-white-color">Your Streaming Movie & TV Guide. Track, Discover and find your Favourite 
+                                            TV shows and movies all Across the World.
+                                        </p>
+                                        <span><a href="#" class="global-white-color no-decoration">Get Started</a> </span>
+                                        <span><a href="#" class="open-button global-white-color no-decoration">Login</a> </span>
+                                        <!-- <button class="open-button" onclick="openForm()">Login</button> -->
+                                        <div class="form-popup" id="myForm">
+                                            <form action="/action_page.php" class="form-container">
+                                              <h1>Login</h1>
+                                          
+                                              <label for="email">Email</label>
+                                              <input type="text" placeholder="Enter Email" name="email" required>
+                                          
+                                              <label for="psw">Password</label>
+                                              <input type="password" placeholder="Enter Password" name="psw" required>
+                                          
+                                              <button type="submit" class="btn">Login</button>
+                                              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="first-slide-rightpart">
+                                        <div class="slide-img">
+                                            <img src="img/logo.jpg" alt="img" class="page-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide slide-2">
+                                <div class="second-slide-content">
+                                    <h1>Trending Now</h1>
+                                    <p>Watch this movie right here</p>
+                                    <div class="watch-btn">
+                                        <a href="#">Watch Here</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide slide-3"></li>
+                        </ul>
+                    </div>
+                    <button class="carousel-btn carousel-btn-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="carousel-nav">
+                        <button class="carousel-indicator current-slide"></button>
+                        <button class="carousel-indicator"></button>
+                        <button class="carousel-indicator"></button>
+                    </div>
+                </div>
+            </header>
+            <div class="movies-list">
+                <div class="movies-type">
+                    <H1>Most Watched :-</H1>
+                    <button class="moviesList-pre-btn"><i class="fas fa-2x fa-chevron-circle-left"></i></button>
+                    <button class="moviesList-next-btn"><i class="fas fa-2x fa-chevron-circle-right"></i></button>
+                    <div class="card-container card-css">
+                    
+                    </div>
+                </div>
+                <div class="movies-type">
+                    <H1>Latest Movies:-</H1>
+                    <button class="moviesList-pre-btn"><i class="fas fa-2x fa-chevron-circle-left"></i></button>
+                    <button class="moviesList-next-btn"><i class="fas fa-2x fa-chevron-circle-right"></i></button>
+                    <div class="card-container2 card-css">
+
+                    </div>
+                </div>
+                <div class="movies-type">
+                    <H1>Now Trending:-</H1>
+                    <button class="moviesList-pre-btn"><i class="fas fa-2x fa-chevron-circle-left"></i></button>
+                    <button class="moviesList-next-btn"><i class="fas fa-2x fa-chevron-circle-right"></i></button>
+                    <div class="card-container3 card-css">
+
+                    </div>
+                </div>
+            </div>
+            <div class="filtered-container">
+                <!-- <h1>Filtered Items:-</h1> -->
+            </div>
+        </section>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="about-us">
+                <h2>About us</h2>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   </p>
+                </div>
+                <div class="links">
+                    <span><a href="#"><i class="fab fa-facebook-square"></a></i></span>
+                    <span><a href="#"><i class="fab fa-instagram-square"></a></i></span>
+                    <span><a href="#"><i class="fab fa-twitter-square"></i></a></span>
+                </div>
+            </div>
+            <div class="useful-links">
+                <h2>Useful links</h2>
+                <ul>
+                    <li><a class="no-decoration global-black-color" href="#">Home</a></li>
+                    <li><a class="no-decoration global-black-color" href="#">Blog</a></li>
+                    <li><a class="no-decoration global-black-color" href="#">About us</a></li>
+                    <li><a class="no-decoration global-black-color" href="#">Contact us</a></li>
+                    <li><a class="no-decoration global-black-color" href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="subscription-info">
+                <h2>Stay Connected</h2>
+                <span><input class="subscription-input-box" type="text" placeholder="Email-address" name="search"></span>
+                <span><button type="submit" class="subscription-btn">Sign up</button></span>
+                <p>Subscribe for Latest Updates</p>
+            </div>
+        </div>
+        <p class="copyright-info">&copy 2021 All rights reserved</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="src/script.js"></script>
+    <script src="src/fetch.js"></script>
+</body>
+</html>

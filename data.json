@@ -1,0 +1,330 @@
+[
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"most watched",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Comedy",
+        "year":"2020",
+        "name":"The Shawshank Redemption",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"The Dark Knight",
+        "type":"most watched",
+        "rating":"10"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Angry Men",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Lord of the Rings",
+        "type":"most watched",
+        "rating":"6"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Pulp Fiction",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Inception",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Fight club",
+        "type":"most watched",
+        "rating":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"The Matrix",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Star Wars",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Parasite",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Intersteller",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"City of God",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Spirited Away",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"The Green Mile",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"The Prestige",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"The Departed",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Gladiator",
+        "type":"most watched",
+        "rating":"9"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"Leon",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"Action",
+        "year":"2020",
+        "name":"The Lion King",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Cinema Paradiso",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Psycho",
+        "type":"popular",
+        "rating":"8"
+    },
+
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Rear Window",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Modern Times",
+        "type":"popular",
+        "rating":"8"
+    },
+
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"popular",
+        "rating":"8"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    },
+
+    {
+        "img":"img/avenger.jfif",
+        "category":"action",
+        "year":"2020",
+        "name":"Avengers",
+        "type":"trending",
+        "ratiing":"7"
+    }
+
+
+
+]
